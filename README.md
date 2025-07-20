@@ -27,3 +27,23 @@
 - 🧪 Unit and Integration Testing
 - 📊 Role-based access control
 - 🧾 User Profiles and Activity Feed
+
+---
+
+## 🚀 Getting Started
+
+### 📦 Clone the Repository
+
+```bash
+git clone https://github.com/satyajit1106/SocialSpark.git
+cd SocialSpark
+
+## ⚙️ Environment Setup
+
+Create a `.env` file or configure `application.properties` with the following:
+
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/socialspark
+spring.datasource.username=your_db_username
+spring.datasource.password=your_db_password
+jwt.secret=your_jwt_secret
